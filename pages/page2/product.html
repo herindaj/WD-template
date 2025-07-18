@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Products | Mang Inasal Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #fffaf0;
+      color: #333;
+    }
+    header {
+      background-color: #006400;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #228B22;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mang Inasal Menu Highlights</h1>
+</header>
+
+<nav>
+  <a href="../../index.html">Home</a>
+  <a href="../page3/about.html">About</a>
+  <a href="product.html">Products</a>
+</nav>
+
+<section class="products">
+  <div class="product">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Chicken_Inasal.jpg/640px-Chicken_Inasal.jpg" alt="Chicken Inasal">
+    <h3>Chicken Inasal</h3>
+    <p>Signature grilled chicken marinated in a blend of local spices. A Filipino favorite.</p>
+  </div>
+  <div class="product">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Pancit_Palabok.jpg/640px-Pancit_Palabok.jpg" alt="Pancit Palabok">
+    <h3>Pancit Palabok</h3>
+    <p>Classic Filipino noodle dish with savory sauce, topped with shrimp, egg, and chicharrón.</p>
+  </div>
+  <div class="product">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Halo-halo-Philippines-dessert.jpg/640px-Halo-halo-Philippines-dessert.jpg" alt="Halo-Halo">
+    <h3>Halo-Halo</h3>
+    <p>Refreshing Filipino dessert with crushed ice, milk, sweet beans, and fruits — perfect for summer!</p>
+  </div>
+</section>
+
+</body>
+</html>
