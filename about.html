@@ -5,10 +5,38 @@
   <title>About | Mang Inasal Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #fefefe;
+      color: #333;
+    }
+    .section-title {
+      color: #198754;
+      font-weight: 700;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    .highlight-box {
+      background-color: #e9f5ee;
+      border-left: 5px solid #198754;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 5px;
+    }
+    footer {
+      margin-top: 60px;
+      background-color: #f8f9fa;
+      padding: 20px 0;
+      text-align: center;
+      border-top: 1px solid #dee2e6;
+      color: #6c757d;
+    }
+  </style>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
   <div class="container">
     <a class="navbar-brand" href="index.html">
       <img src="https://www.manginasal.ph/wp-content/uploads/2024/12/mang-inasal-3.svg" alt="Mang Inasal Logo" height="40">
@@ -17,7 +45,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav me-auto">
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
         <li class="nav-item"><a class="nav-link" href="product.html">Products</a></li>
@@ -25,34 +53,49 @@
     </div>
   </div>
 </nav>
+
 <div class="container mt-5">
-  <div class="text-center mb-4">
-    <h1>About Me & Mang Inasal</h1>
+  <div class="text-center mb-5">
+    <h1 class="section-title">About Me & Mang Inasal</h1>
+    <p class="text-muted">Learn more about the creator and the inspiration behind this project.</p>
   </div>
 
   <div class="row justify-content-center">
     <div class="col-md-8">
-      <h3>Hello, I’m Arthur C. Atega III</h3>
-      <p>
-        I’m a student and aspiring web developer who created this website as a portfolio project to showcase my design and development skills. I chose Mang Inasal as the subject because it’s one of the most beloved brands in the Philippines, and I wanted to use a real-world business to demonstrate layout, design, and Bootstrap integration.
-      </p>
+      <div class="highlight-box">
+        <h3 class="section-title">Hello, I’m Arthur C. Atega III</h3>
+        <p>
+          I’m a student and aspiring web developer who created this website as a portfolio project to showcase my design and development skills. I chose Mang Inasal as the subject because it’s one of the most beloved brands in the Philippines, and I wanted to use a real-world business to demonstrate layout, design, and Bootstrap integration.
+        </p>
+      </div>
 
-      <h3>About Mang Inasal</h3>
-      <p>
-        Mang Inasal, which translates to “Mr. Barbecue” in Ilonggo, was founded in 2003 in Iloilo City. It quickly became one of the Philippines’ most successful fast-food chains by offering delicious grilled chicken, rice meals, and the iconic “unli-rice” promo that Filipinos love.
-      </p>
+      <div class="highlight-box">
+        <h3 class="section-title">About Mang Inasal</h3>
+        <p>
+          Mang Inasal, which translates to “Mr. Barbecue” in Ilonggo, was founded in 2003 in Iloilo City. It quickly became one of the Philippines’ most successful fast-food chains by offering delicious grilled chicken, rice meals, and the iconic “unli-rice” promo that Filipinos love.
+        </p>
+      </div>
 
-      <h3>Why Mang Inasal Stands Out</h3>
-      <ul>
-        <li>Signature Chicken Inasal with native-style grilling</li>
-        <li>Affordable meals with unlimited rice</li>
-        <li>Filipino-themed dining experience</li>
-        <li>Widespread presence across the country</li>
-        <li>Also I love roasted chicken more than fried chicken in general
-      </ul>
+      <div class="highlight-box">
+        <h3 class="section-title">Why Mang Inasal Stands Out</h3>
+        <ul>
+          <li>Signature Chicken Inasal with native-style grilling</li>
+          <li>Affordable meals with unlimited rice</li>
+          <li>Filipino-themed dining experience</li>
+          <li>Widespread presence across the country</li>
+          <li>Also, I love roasted chicken more than fried chicken in general</li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2025 Arthur C. Atega III. All rights reserved.</p>
+  </div>
+</footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
